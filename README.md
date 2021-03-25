@@ -15,7 +15,7 @@ Implement the SQL statement that will output usernames and videoNames from the V
 	
 Place a screen shot of the SQL statement and the output from the query after it has been implemented here. Leave the SQL in the repl.it and answer part ii bellow it.
 
-**(4 marks)** 
+**(4 marks)**  
 
 ***
 

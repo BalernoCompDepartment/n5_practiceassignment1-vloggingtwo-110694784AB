@@ -12,11 +12,17 @@ Implement the SQL statement that will output usernames and videoNames from the V
 
 Place a screen shot of the SQL statement and the output from the query after it has been implemented here. Leave the SQL in the repl.it and answer part ii bellow it.*/
 
+SELECT Vlogger.username, Video.videoName
+FROM Vlogger, Video
+WHERE vlogger.vloggerID = video.vloggerID AND video.rating > 3
 
-
+/* (I couldn't figure out how to insert screenshots so they've been inserted into the assignments page, sorry.)
 
 /*ii. One of the videos called “Slime” contains a recipe for slime which does not work. It should be removed from the database.
 
 Implement the SQL statement that will delete the Slime video which has a videoID of 3.
 
 Place a screen shot of the SQL statement and the output from the query after it has been implemented here. Leave the SQL in the repl.it */
+
+DELETE Video
+WHERE videoID = 3 AND videoName = "Slime"
